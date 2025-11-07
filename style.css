@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background: #004d40;
+  background: #0a0a0a;
   color: white;
   padding: 20px 30px;
   text-align: center;
@@ -36,7 +36,7 @@ main {
 }
 
 .card h2 {
-  color: #00695c;
+  color: #121313;
   margin-bottom: 25px;
   text-align: center;
 }
@@ -130,10 +130,14 @@ textarea {
 }
 
 footer {
-  background-color: #004d40;
+  background-color: #141414;
   color: white;
   text-align: center;
   padding: 15px 0;
   font-size: 14px;
   margin-top: auto;
+}
+body {
+  background: url("https://i.pinimg.com/474x/41/09/2e/41092e481ab06233b4d1e14429206252.jpg") no-repeat center center fixed;
+  background-size: cover;
 }

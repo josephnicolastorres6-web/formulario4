@@ -119,5 +119,5 @@ form.addEventListener('submit', function (e) {
 
   form.reset();
   contador.textContent = "0/150 caracteres";
-  alert('✅ Registro exitoso. Tu archivo JSON se descargó correctamente.');
+  alert(' Registro exitoso. Tu archivo JSON se descargó correctamente.');
 });
