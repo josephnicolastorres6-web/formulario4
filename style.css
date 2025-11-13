@@ -76,7 +76,19 @@ textarea {
   resize: vertical;
   min-height: 80px;
 }
-
+.progreso {
+  margin-top: 15px;
+  background-color: #e6e8e9;
+  border-radius: 10px;
+  height: 15px;
+  overflow: hidden;
+}
+.barra {
+  height: 100%;
+  width: 0%;
+  background-color: #169b58;
+  transition: width 0.3s ;
+}
 .btn {
   background: #26a69a;
   color: white;

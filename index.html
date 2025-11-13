@@ -16,6 +16,7 @@
     <div class="card">
       <h2>Formulario de Registro</h2>
       <form id="registroForm" novalidate>
+        
         <div>
           <label for="nombre">Nombre:</label>
           <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
@@ -75,6 +76,10 @@
           <label for="terminos">Acepto los <a href="#" target="_blank">términos y condiciones</a>.</label>
         </div>
         <p class="error" id="error-terminos">Debes aceptar los términos y condiciones.</p>
+      
+        <div class="progreso">
+          <div class="barra" id="barra"></div>
+        </div>
 
         <button type="submit" class="btn">Enviar Registro</button>
         <button type="reset" class="btn">Borrar</button>
@@ -86,6 +91,6 @@
     <p>© 2025 Desarrollo propio - Todos los derechos reservados</p>
   </footer>
 
-  <script src="scrpit.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
