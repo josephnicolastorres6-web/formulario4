@@ -17,14 +17,16 @@ descripcion.addEventListener('input', () => {
 // --- FUNCIÓN: ACTUALIZAR LA BARRA DE PROGRESO ---
 function actualizarBarraProgreso() {
   let completados = 0;
-  const total = campos.length + 1; // +1 por el checkbox de términos
+  const total = campos.length -1; 
 
   campos.forEach(id => {
     const campo = document.getElementById(id);
+
+    if (campo.type === 'checkbox' ){
     if (campo.value && campo.value.trim() !== '') {
       completados++;
     }
-  });
+  
 
   if (terminos.checked) completados++;
 
